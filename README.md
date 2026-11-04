@@ -1,4 +1,4 @@
-# SpringBoot-MyPortfolio-Creative
+# MyPortfolio-Creative
 
 A personal portfolio website in the **Creative Personal** design, built with **Java, Spring Boot and Thymeleaf**.
 All portfolio content (name, about text, skills, projects, contact details) is created in the Java controller and
