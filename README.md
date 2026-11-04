@@ -105,8 +105,8 @@ Everything is in one method: `addPersonalData()` in
 
 ## Links
 
-- GitHub repository: `https://github.com/roshangupta7755/SpringBoot-MyPortfolio-Creative` *(add after you create the repository)*
-- Live website: `https://<your-render-service>.onrender.com` *(add after deployment)*
+- GitHub repository: `https://github.com/saurabhrajbhar100-rgb/MyPortfolio-Creative/SpringBoot-MyPortfolio-Creative` *(add after you create the repository)*
+- Live website: `https://myportfolio-creative-1.onrender.com` *(add after deployment)*
 
 ## Deployment
 
