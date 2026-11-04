@@ -10,11 +10,11 @@ This is my individual practical project for **SHEAT Skill Lab**.
 
 | | |
 |---|---|
-| **Developer** | Roshan Gupta |
+| **Developer** | Saurabh Rajbhar |
 | **Course** | Bachelor of Computer Applications (BCA) |
 | **College** | SHEAT College of Engineering and Management, Varanasi |
 | **Goal** | Aspiring Java Backend Developer |
-| **GitHub** | https://github.com/roshangupta7755 |
+| **GitHub** | https://github.com/saurabhrajbhar100-rgb/MyPortfolio-Creative |
 
 ## Technologies used
 
