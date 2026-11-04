@@ -127,10 +127,10 @@ git push -u origin main
 ### 2. Deploy on Render
 
 1. Sign in to https://render.com and click **New** > **Web Service**.
-2. Connect GitHub and select the `SpringBoot-MyPortfolio-Creative` repository.
+2. Connect GitHub and select the `https://github.com/saurabhrajbhar100-rgb/MyPortfolio-Creative` repository.
 3. Set **Language / Runtime** to **Docker** (Render finds the `Dockerfile`).
 4. Choose the **Free** instance type and click **Create Web Service**.
-5. Open the `.onrender.com` URL when the build finishes.
+5. Open the `https://myportfolio-creative-1.onrender.com` URL when the build finishes.
 
 No environment variables are needed: the app reads Render's `PORT` (`server.port=${PORT:8080}`).
 Free instances sleep after inactivity, so the first visit can take about a minute.
