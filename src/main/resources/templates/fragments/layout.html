@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<body>
+
+    <!--
+        Reusable fragments shared by every page.
+        Each design keeps its own navbar and layout, but these small
+        pieces are the same everywhere, so they live here once.
+    -->
+
+    <!-- TECHNOLOGY TAGS: used by every project card -->
+    <ul th:fragment="techTags(list, cls)" th:class="${cls}">
+        <li th:each="tech : ${list}" th:text="${tech}">Java</li>
+    </ul>
+
+    <!-- FOOTER: the class changes the look, the content stays the same -->
+    <footer th:fragment="footer(cls)" th:class="${cls}">
+        <div class="footer-inner">
+            <p>&copy; <span th:text="${year}">2026</span> <span th:text="${name}">Your Name</span>.
+               Built with Spring Boot and Thymeleaf.</p>
+            <a th:href="${github}" target="_blank" rel="noopener">GitHub</a>
+        </div>
+    </footer>
+
+    <!-- SCRIPT: one shared file for the menu button and active link highlight -->
+    <script th:fragment="scripts" th:src="@{/js/script.js}" defer></script>
+
+</body>
+</html>
